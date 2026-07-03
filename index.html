@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JS - Kanban</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-slate-100 text-slate-900">
+    <header class="border-b border-slate-200 bg-white">
+        <div class="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-5 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+                <p class="text-sm font-semibold uppercase tracking-wider text-teal-700">Aula de JavaScript</p>
+                <h1 class="mt-1 text-2xl font-bold text-slate-950">Dados mockados para virar JS</h1>
+            </div>
+
+            <nav class="flex gap-2">
+                <a href="index.html" class="rounded-md bg-slate-950 px-4 py-2 text-sm font-semibold text-white">Kanban</a>
+                <a href="tabela.html" class="rounded-md border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50">Tabela</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-5 py-8">
+        <section class="mb-6 grid gap-4 md:grid-cols-3">
+            <div class="rounded-lg border border-slate-200 bg-white p-5">
+                <p class="text-sm font-medium text-slate-500">Total de tarefas</p>
+                <p class="mt-2 text-3xl font-bold">9</p>
+            </div>
+            <div class="rounded-lg border border-slate-200 bg-white p-5">
+                <p class="text-sm font-medium text-slate-500">Responsáveis</p>
+                <p class="mt-2 text-3xl font-bold">5</p>
+            </div>
+            <div class="rounded-lg border border-slate-200 bg-white p-5">
+                <p class="text-sm font-medium text-slate-500">Concluídas</p>
+                <p class="mt-2 text-3xl font-bold">3</p>
+            </div>
+        </section>
+
+        <section class="grid gap-5 lg:grid-cols-3" id="container">            
+        </section>
+    </main>
+    <script src="kanban.js"></script>
+</body>
+</html>
