@@ -1,0 +1,77 @@
+{
+  "pedidos": [
+    {
+      "cliente": "Joao",
+      "produto": "Tv",
+      "valor": "100",
+      "status": {
+        "colorClass": "text-emerald-800",
+        "bgClass": "bg-emerald-100",
+        "label": "Pago"
+      },
+      "data": "2026-07-08",
+      "id": "inor9_pSikc"
+    },
+    {
+      "cliente": "Joao",
+      "produto": "TV",
+      "valor": "100",
+      "status": {
+        "colorClass": "text-emerald-800",
+        "bgClass": "bg-emerald-100",
+        "label": "Pago"
+      },
+      "data": "2026-07-08",
+      "id": "oY39ofg6YB0"
+    },
+    {
+      "cliente": "Joao",
+      "produto": "Radio",
+      "valor": "10",
+      "status": {
+        "colorClass": "text-emerald-800",
+        "bgClass": "bg-emerald-100",
+        "label": "Pago"
+      },
+      "data": "2026-07-08",
+      "id": "lNIykMku3LQ"
+    },
+    {
+      "cliente": "Teste",
+      "produto": "testinho",
+      "valor": "11",
+      "status": {
+        "colorClass": "text-emerald-800",
+        "bgClass": "bg-emerald-100",
+        "label": "Pago"
+      },
+      "data": "2026-07-08",
+      "id": "Yldw5dV4F6M"
+    },
+    {
+      "cliente": "Bruno",
+      "produto": "Celular",
+      "valor": "100",
+      "status": {
+        "colorClass": "text-emerald-800",
+        "bgClass": "bg-emerald-100",
+        "label": "Pago"
+      },
+      "data": "2026-07-08",
+      "id": "Xe6fkOOHZNk"
+    },
+    {
+      "cliente": "Tiago",
+      "produto": "TV",
+      "valor": "100",
+      "status": {
+        "colorClass": "text-emerald-800",
+        "bgClass": "bg-emerald-100",
+        "label": "Pago"
+      },
+      "data": "2026-07-08",
+      "id": "ADx6VwA5ATI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
